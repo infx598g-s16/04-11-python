@@ -1,0 +1,167 @@
+Script started on Mon Apr 11 08:43:38 2016
+[?1034hbash-3.2$ python --version
+Python 2.7.11 :: Anaconda 2.5.0 (x86_64)
+bash-3.2$ python3 ==[K[K--version
+Python 3.4.3
+bash-3.2$ python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 1+2
+3
+>>> x = 6
+>>> import math
+>>> (/43[K[K[K4/3)*math.pi*(x**3)
+904.7786842338603
+>>> quit()
+bash-3.2$ python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+KeyboardInterrupt
+>>> 
+KeyboardInterrupt
+>>> ^D
+bash-3.2$ h[Kpython3 hello.py
+Hello world!
+bash-3.2$ python3 hello.py
+Hello world!
+bash-3.2$ python3 hello.py
+Hello world!
+bash-3.2$ python3 hello.py
+Goodbye world!
+bash-3.2$ python3 hello.py
+Hello world!
+I'm writing Python!
+bash-3.2$ python3 hello.py
+  File "hello.py", line 3
+    print "Hello world!"
+                       ^
+SyntaxError: Missing parentheses in call to 'print'
+bash-3.2$ python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hello world!)
+  File "<stdin>", line 1
+    print("hello world!)
+                       ^
+SyntaxError: EOL while scanning string literal
+>>> print("Hello wolf[Kd")
+Hello wold
+>>> my_var = [K[K[K[Knum = 598
+>>> my_num = 598598[K
+>>> my_num =598=598[K
+>>> my_num=598 598
+>>> my_num= 598[1@ == 598[K[K[K[K[K[K[K[K[K[Kmy_num=598 =598 =598 =598 =598 =598 =598=
+>>> ,[Kmy_num
+598
+>>> my_num + 2
+600
+>>> 598 = myn[K_num
+  File "<stdin>", line 1
+SyntaxError: can't assign to literal
+>>> x = 5[K4
+>>> y = x
+>>> y
+4
+>>> x = 4
+>>> y = x
+>>> x = 5
+>>> print(x)
+5
+>>> print(x))[Ky)
+4
+>>> today_nam[K[Kumber = 4
+>>> yesterday_number = today_number
+>>> today_number = 5
+>>> yesterdays pa[K[K_payrate_gve[K[Kive_that_I_went_on_vacation = 12.75
+>>> x= 4
+>>> type(x)
+<class 'int'>
+>>> type([K[K[K[K[Ky = 1.5
+>>> type(y)
+<class 'float'>
+>>> message  = "Hello World"
+>>> type(message)
+<class 'str'>
+>>> likes_python = True
+>>> type(tru[K[K[Klikes_pythin[K[Kon)
+<class 'bool'>
+>>> type(likes_python))[5G[5P[17G = True[K[K[K[Ktrue
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> likes_python = true[K
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'tru' is not defined
+>>> true  = True
+>>> 3/4
+0.75
+>>> qit[K[Kuit()
+bash-3.2$ python
+Python 2.7.11 |Anaconda 2.5.0 (x86_64)| (default, Dec  6 2015, 18:57:58) 
+[GCC 4.2.1 (Apple Inc. build 5577)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+Anaconda is brought to you by Continuum Analytics.
+Please check out: http://continuum.io/thanks and https://anaconda.org
+[?1034h>>> 3/4
+0
+>>> quit()
+bash-3.2$ python3
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 4/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 5**2
+25
+>>> 4/[K % 3 % 3[K5 % 3 % 3
+2
+>>> 5 % 3 3[K/ 3 3
+1.6666666666666667
+>>> "Hello"*5
+'HelloHelloHelloHelloHello'
+>>> n[K'[K"NaN"*10
+'NaNNaNNaNNaNNaNNaNNaNNaNNaNNaN'
+>>> "NaN"*10 + "Batman
+  File "<stdin>", line 1
+    "NaN"*10 + "Batman
+                     ^
+SyntaxError: EOL while scanning string literal
+>>> "NaN"*10 + "Batman"
+'NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNBatman'
+>>> "NaN"*10 + "Batman"[1@ B
+'NaNNaNNaNNaNNaNNaNNaNNaNNaNNaN Batman'
+>>> print("Hello", "World"), [K[K, end="\t")
+Hello World	>>> 
+>>> inpu[K[K[K[K
+>>> 
+>>> inpu([Kt("Are we haing[K[K[Kving fun yet?") ")")
+Are we having fun yet? Well yeah
+'Well yeah'
+>>> name = "Je[Koel"=[K+"Ross"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kquit()
+bash-3.2$ python3 hello.py 
+What is your name? Joel
+Hello Joel
+bash-3.2$ import math
+bash: import: command not found
+bash-3.2$ p[Kimport mathpython3 hello.py [K[K[K[K[K[K[K[K[K[K
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 23 2015, 02:52:03) 
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import math
+>>> math.qrt([K[K[K[Ksqrt(3)
+1.7320508075688772
+>>> math.sqrt(3)[1@rm[1@om[1@om[1@tm[1@3m[1@ m[1@=m[1@ mmath.sqrt(3)
+>>> prin[K[K[K[Kprint(root3)
+1.7320508075688772
+>>> qi[K[Kquit()
+bash-3.2$ exit
+exit
+
+Script done on Mon Apr 11 10:21:49 2016
